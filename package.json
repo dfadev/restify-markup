@@ -1,0 +1,34 @@
+{
+  "name": "restify-markup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+		"test": "mocha --compilers js:babel-register"
+  },
+  "author": "Russ Panula <russ@dfa.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-preset-env": "^1.5.1",
+    "mocha": "^3.4.2",
+    "babel-template": "^6.24.1",
+    "babel-types": "^6.24.1"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  }
+}
