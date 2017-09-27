@@ -1,6 +1,6 @@
 {
   "name": "restify-markup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
   "directories": {
@@ -30,5 +30,6 @@
         }
       ]
     ]
-  }
+  },
+	"repository": "https://github.com/dfadev/restify-markup"
 }
